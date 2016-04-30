@@ -2,4 +2,4 @@
 
 var angular = require('angular');
 
-var app = angular.module('nirmalavidya', []);
+var app = angular.module('app', []);
