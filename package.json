@@ -1,0 +1,43 @@
+{
+  "name": "nirmalavidya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaroslav Salmin",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-eslint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.x.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "quotes": 0,
+      "no-trailing-spaces": 0,
+      "eol-last": 0,
+      "no-unused-vars": 0,
+      "no-underscore-dangle": 0,
+      "no-alert": 0,
+      "no-lone-blocks": 0
+    }
+  }
+}
